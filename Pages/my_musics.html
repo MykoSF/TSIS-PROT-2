@@ -1,72 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Musics</title>
+    <link rel="icon" type="image/x-icon" href="/Photos/icone.png" />
+    <style>
+      body {
+        background-image: url(https://i.pinimg.com/originals/b8/2f/28/b82f28a7e9c8fcb3868d3d94652c107c.gif);
+        background-size: cover;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Musics</title>
-  <link rel="icon" type="image/x-icon" href="/Photos/icone.png" />
-  <style>
-    body {
-      background-image: url(https://wallpaperaccess.com/full/5927911.gif);
-      background-size: cover;
-      background-attachment: scroll;
-      background-repeat: no-repeat;
-    }
+      h1 {
+        text-align: center;
+      }
 
-    h1 {
-      text-align: center;
-    }
+      .topnav {
+        overflow: hidden;
+        background-color: #242424;
+        margin: 10px;
+      }
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
 
-    .topnav {
-      overflow: hidden;
-      background-color: #333;
-    }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: rgb(0, 0, 0);
+      }
 
-    .topnav a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-    }
-
-    .topnav a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    .topnav a.active {
-      background-color: #630d9c;
-      color: white;
-    }
-  </style>
-</head>
-
-<body>
+      .topnav a.active {
+        background-color: #0c0c0c;
+        color: white;
+      }
+    </style>
+  </head>
 
   <body>
+    
     <div class="topnav">
       <a href="/Pages/index.html">Home</a>
       <a class="active" href="/Pages/my_musics.html">Music</a>
+      <a href="/Pages/my_games.html">Games</a>
       <a href="/Pages/gallery.html">Gallery</a>
       <a href="/Pages/aboutme.html">About me</a>
     </div>
-
     <h1>
-      <iframe style="border-radius:12px"
-        src="https://open.spotify.com/embed/playlist/0EZceDCIHcP0485VGuH3nI?utm_source=generator&theme=0" width="60%"
-        height="352" frameBorder="0" allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <img src="/Photos/My musics.png" alt="Logo página, My profile" width="32%" />
     </h1>
 
+    <h1>
+      <iframe
+        style="border-radius: 12px"
+        src="https://open.spotify.com/embed/playlist/0EZceDCIHcP0485VGuH3nI?utm_source=generator&theme=0"
+        width="60%"
+        height="352"
+        frameborder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </h1>
   </body>
-
 </html>
